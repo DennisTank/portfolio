@@ -1,0 +1,133 @@
+
+///// Paths //////
+const BASE_URL = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, "/");
+
+const WALLPAPER_SRC = {
+    mount_hammer: BASE_URL+"assets/imgs/wallpaper.png",
+}
+const ICON_SRC = {
+    folder: BASE_URL+"assets/icons/folder.png",
+    file: BASE_URL+"assets/icons/file.png",
+    image: BASE_URL+"assets/icons/image.png",
+    pdf: BASE_URL+"assets/icons/pdf.png",
+    linkedIn: BASE_URL+"assets/icons/linkedIn.png",
+    github: BASE_URL+"assets/icons/github.png",
+    leetcode: BASE_URL+"assets/icons/leetcode.png",
+    minimize: BASE_URL+"assets/icons/minimize.png",
+    maximize: BASE_URL+"assets/icons/maximize.png",
+    maximize_back: BASE_URL+"assets/icons/maximize_back.png",
+    close: BASE_URL+"assets/icons/close.png",
+    oddly: BASE_URL+"assets/icons/oddly.png",
+    elements: BASE_URL+"assets/icons/elements.png",
+    snack: BASE_URL+"assets/icons/snack.png",
+}
+const MD_SRC = {
+    readme: BASE_URL+"assets/mds/readme.md",
+}
+const IMG_SRC = {
+    me: BASE_URL+"assets/imgs/me.gif",
+}
+const PDF_SRC = {
+    isc2_cc: BASE_URL+"assets/pdfs/isc2_cc.pdf",
+    security_plus: BASE_URL+"assets/pdfs/security_plus.pdf",
+}
+
+//// FILE TYPES /////
+const FILE_TYPE = {
+    folder:"FOLDER", 
+    md:"MD", 
+    image:"IMG", 
+    pdf:"PDF", 
+    link:"LINK"
+};
+
+////// FILE STRUCTURES ///////
+const CERTIFICATES = [
+    {
+        src: ICON_SRC.pdf,
+        lable: "Security +",
+        fileType:FILE_TYPE.pdf,
+        meta: PDF_SRC.security_plus,
+    },
+    {
+        src: ICON_SRC.pdf,
+        lable: "ISC2 CC",
+        fileType:FILE_TYPE.pdf,
+        meta: PDF_SRC.isc2_cc,
+    },
+];
+
+const PROJECTS = [];
+
+const BLOGS = [];
+
+const DESKTOP = [
+    {
+        src: ICON_SRC.folder,
+        lable: "Certificates",
+        fileType:FILE_TYPE.folder,
+        meta: CERTIFICATES,
+    },
+    {
+        src: ICON_SRC.folder,
+        lable: "Projects",
+        fileType:FILE_TYPE.folder,
+        meta: PROJECTS
+    },
+    {
+        src: ICON_SRC.file,
+        lable: "ReadMe!",
+        fileType:FILE_TYPE.md,
+        meta: MD_SRC.readme
+    },
+    {
+        src: ICON_SRC.image,
+        lable: "ME",
+        fileType:FILE_TYPE.image,
+        meta: IMG_SRC.me,
+    },
+    {
+        src: ICON_SRC.folder,
+        lable: "BLOGS",
+        fileType:FILE_TYPE.folder,
+        meta: BLOGS
+    },
+    {
+        src: ICON_SRC.linkedIn,
+        lable: "LinkedIn",
+        fileType:FILE_TYPE.link,
+        meta: "https://www.linkedin.com/in/dennistank011/",
+    },
+    {
+        src: ICON_SRC.github,
+        lable: "Github",
+        fileType:FILE_TYPE.link,
+        meta:"https://github.com/DennisTank/"
+    },
+    {
+        src: ICON_SRC.leetcode,
+        lable: "Leetcode",
+        fileType:FILE_TYPE.link,
+        meta:"https://leetcode.com/u/dennistank/"
+    },
+    {
+        src: ICON_SRC.oddly,
+        lable: "Oddly Adventure",
+        fileType:FILE_TYPE.link,
+        meta:"https://cyberstroke.itch.io/oddly-adventure/"
+    },
+    {
+        src: ICON_SRC.elements,
+        lable: "Element Simulation",
+        fileType:FILE_TYPE.link,
+        meta:"https://dennistank.github.io/Element-Simulation/"
+    },
+    {
+        src: ICON_SRC.snack,
+        lable: "Snake: Classic",
+        fileType:FILE_TYPE.link,
+        meta:"https://dennistank.github.io/Classic-Snake/"
+    },
+]
+
+
