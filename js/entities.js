@@ -70,6 +70,7 @@ class MyWindow{
     constructor(params){
         this.params = params;
 
+        this.taskIndex = Number(this.params.index);
         this.isMax = false;
         this.isMin = false;
         this.isDragging = false;
@@ -144,7 +145,7 @@ class MyWindow{
     }
     close(e) {
         removeWindow(this.params.index);
-        removeBar(this.params.index);
+        removeBar(this.taskIndex);
     }
     mousedown(e){
         this.isDragging = true;
@@ -182,10 +183,7 @@ class MyWindow{
                     this.entity.appendChild(boxMd);
                 });
                 windowsContainer.appendChild(this.entity);
-                break;
-
-            case FILE_TYPE.link:
-                window.open(this.params.meta, "_blank");
+                buildBar(this.params.index, this.params.lable, this.minimize.bind(this));
                 break;
 
             case FILE_TYPE.folder:
@@ -194,6 +192,7 @@ class MyWindow{
                 this.entity.appendChild(boxFolder);
                 buildIcons(this.params.meta, boxFolder);
                 windowsContainer.appendChild(this.entity);
+                buildBar(this.params.index, this.params.lable, this.minimize.bind(this));
                 break;
             
                 case FILE_TYPE.image:
@@ -202,6 +201,7 @@ class MyWindow{
                 boxImage.innerHTML=`<img class="window-image" src="${this.params.meta}"/>`;
                 this.entity.appendChild(boxImage);
                 windowsContainer.appendChild(this.entity);
+                buildBar(this.params.index, this.params.lable, this.minimize.bind(this));
                 break;
                 
                 case FILE_TYPE.pdf:
@@ -210,9 +210,14 @@ class MyWindow{
                 boxPdf.innerHTML=`<iframe  class="window-pdf" src="${this.params.meta}"></iframe>`;
                 this.entity.appendChild(boxPdf);
                 windowsContainer.appendChild(this.entity);
+                buildBar(this.params.index, this.params.lable, this.minimize.bind(this));
                 break;
+
+                case FILE_TYPE.link:
+                window.open(this.params.meta, "_blank");
+                break;
+
             default:break;
         }
-        buildBar(this.params.index, this.params.lable, this.minimize.bind(this));
     }
 }

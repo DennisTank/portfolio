@@ -49,17 +49,18 @@ const buildWindow = (iconParam) => {
 const removeWindow = (index) => {
     ALL_WINDOWS[index].entity.remove();
     ALL_WINDOWS.splice(index, 1);
+
+    for(i = 0; i < ALL_WINDOWS.length; i++){
+        ALL_WINDOWS[i].params.index = i;
+    }
 }
 
 const windowZUpdate = (index) => {
-    const lastIndex = ALL_WINDOWS.length - 1;
+    const curr = ALL_WINDOWS[index];
+    const top = ALL_WINDOWS.reduce((max, obj) => obj.entity.style.zIndex > max.entity.style.zIndex ? obj : max);
 
-    if (index > -1 && index !== lastIndex) {
-      [ALL_WINDOWS[index], ALL_WINDOWS[lastIndex]] = [ALL_WINDOWS[lastIndex], ALL_WINDOWS[index]];
-    }
-
-    for(i = 0; i < ALL_WINDOWS.length; i++){
-        ALL_WINDOWS[i].entity.style.zIndex = 11 + i;
-    }
+    const temp = curr.entity.style.zIndex;
+    curr.entity.style.zIndex = top.entity.style.zIndex;
+    top.entity.style.zIndex = temp;
 }
 
