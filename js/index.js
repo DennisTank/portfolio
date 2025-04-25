@@ -10,3 +10,11 @@ document.getElementById("desktop").style.backgroundImage = `url('${WALLPAPER_SRC
 
 ///////// BEGINS ///////
 buildIcons(DESKTOP, iconContainer);
+
+///////////// Introduction//////
+
+buildWindow({
+    lable: "ReadMe!",
+    fileType:FILE_TYPE.md,
+    meta: MD_SRC.readme
+});
