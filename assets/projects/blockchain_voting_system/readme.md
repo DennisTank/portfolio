@@ -29,7 +29,7 @@
 - 🛡️ Blockchain nodes used Proof-of-Work (SHA-256) to validate and agree on adding new votes.
 - 👤 No voter’s personal information was stored on the blockchain.
 
-<img src="/assets/projects/blockchain_voting_system/fig1.png" class="md-img" />
+<img src="/portfolio/assets/projects/blockchain_voting_system/fig1.png" class="md-img" />
 
 ### 📈 Result Fetching and Tallying
 - 🖥️ The rendering server requested voting results when needed.
@@ -37,7 +37,7 @@
 - 📤 The selected blockchain node provided the voting data.
 - 🧮 The rendering server tallied the votes and displayed the final results to users.
 
-<img src="/assets/projects/blockchain_voting_system/fig2.png" class="md-img" />
+<img src="/portfolio/assets/projects/blockchain_voting_system/fig2.png" class="md-img" />
 
 ### 🛠️ Technologies and Techniques Used
 
