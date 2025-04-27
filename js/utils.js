@@ -1,3 +1,8 @@
+const desktop = document.getElementById("desktop");
+const iconContainer = document.getElementById("icon-container");
+const windowsContainer = document.getElementById("window-container");
+const taskbar = document.getElementById("taskbar");
+
 //////////
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -62,5 +67,7 @@ const windowZUpdate = (index) => {
     const temp = curr.entity.style.zIndex;
     curr.entity.style.zIndex = top.entity.style.zIndex;
     top.entity.style.zIndex = temp;
+
+    taskbar.style.zIndex = `${Number(top.entity.style.zIndex) + 10}`;
 }
 

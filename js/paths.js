@@ -5,6 +5,7 @@ const BASE_URL = window.location.origin + window.location.pathname.replace(/\/[^
 const WALLPAPER_SRC = {
     mount_hammer: BASE_URL+"assets/imgs/wallpaper.png",
 }
+
 const ICON_SRC = {
     folder: BASE_URL+"assets/icons/folder.png",
     file: BASE_URL+"assets/icons/file.png",
@@ -23,11 +24,18 @@ const ICON_SRC = {
 }
 const MD_SRC = {
     readme: BASE_URL+"assets/mds/readme.md",
+    //
+    blockchain_voting_system: BASE_URL+"assets/projects/blockchain_voting_system/readme.md",
+    //
 }
 const IMG_SRC = {
     me: BASE_URL+"assets/imgs/me.gif",
+    ///
+    blockchain_voting_system_f1: BASE_URL+"assets/projects/blockchain_voting_system/fig1.png",
+    blockchain_voting_system_f2: BASE_URL+"assets/projects/blockchain_voting_system/fig2.png",
+    //
 }
 const PDF_SRC = {
-    isc2_cc: BASE_URL+"assets/pdfs/isc2_cc.pdf",
-    security_plus: BASE_URL+"assets/pdfs/security_plus.pdf",
+    isc2_cc: BASE_URL+"assets/certificates/isc2_cc.pdf",
+    security_plus: BASE_URL+"assets/certificates/security_plus.pdf",
 }

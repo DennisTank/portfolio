@@ -26,8 +26,35 @@ const CERTIFICATES = [
 ];
 
 /*-------------------Projects------------------------*/
+const Blockchain_Voting_System = [
+    {
+        src: ICON_SRC.file,
+        lable: "ReadMe!",
+        fileType:FILE_TYPE.md,
+        meta: MD_SRC.blockchain_voting_system
+    },
+    {
+        src: ICON_SRC.image,
+        lable: "fig1",
+        fileType:FILE_TYPE.image,
+        meta: IMG_SRC.blockchain_voting_system_f1,
+    },
+    {
+        src: ICON_SRC.image,
+        lable: "fig2",
+        fileType:FILE_TYPE.image,
+        meta: IMG_SRC.blockchain_voting_system_f2,
+    }
+];
 /*-------------------------------------------*/
-const PROJECTS = [];
+const PROJECTS = [
+    {
+        src: ICON_SRC.folder,
+        lable: "Blockchain Voting System",
+        fileType:FILE_TYPE.folder,
+        meta: Blockchain_Voting_System
+    },
+];
 
 /*------------------Blogs-------------------------*/
 /*-------------------------------------------*/
