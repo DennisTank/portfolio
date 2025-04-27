@@ -42,8 +42,8 @@ const buildWindow = (iconParam) => {
         index:ALL_WINDOWS.length,
         top:`${getRandomInt(50,150)}px`,
         left:`${getRandomInt(50,150)}px`,
-        width:"500px",
-        height:"300px", 
+        width:"70%",
+        height:"70%", 
         lable: iconParam.lable, 
         fileType: iconParam.fileType, 
         meta: iconParam.meta

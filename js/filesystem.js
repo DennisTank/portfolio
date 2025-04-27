@@ -25,40 +25,31 @@ const CERTIFICATES = [
     },
 ];
 
-/*-------------------Projects------------------------*/
-const Blockchain_Voting_System = [
+// /*-------------------Images------------------------*/
+// const IMAGES = [
+//     {
+//         src: ICON_SRC.image,
+//         lable: "fig1",
+//         fileType:FILE_TYPE.image,
+//         meta: IMG_SRC.blockchain_voting_system_f1,
+//     },
+//     {
+//         src: ICON_SRC.image,
+//         lable: "fig2",
+//         fileType:FILE_TYPE.image,
+//         meta: IMG_SRC.blockchain_voting_system_f2,
+//     }
+// ];
+
+/*-------------------Blogs------------------------*/
+const BLOGS = [ // make it all md files and let the images go to all imgs folder
     {
         src: ICON_SRC.file,
-        lable: "ReadMe!",
+        lable: "Blockchain Voting System",
         fileType:FILE_TYPE.md,
         meta: MD_SRC.blockchain_voting_system
     },
-    {
-        src: ICON_SRC.image,
-        lable: "fig1",
-        fileType:FILE_TYPE.image,
-        meta: IMG_SRC.blockchain_voting_system_f1,
-    },
-    {
-        src: ICON_SRC.image,
-        lable: "fig2",
-        fileType:FILE_TYPE.image,
-        meta: IMG_SRC.blockchain_voting_system_f2,
-    }
 ];
-/*-------------------------------------------*/
-const PROJECTS = [
-    {
-        src: ICON_SRC.folder,
-        lable: "Blockchain Voting System",
-        fileType:FILE_TYPE.folder,
-        meta: Blockchain_Voting_System
-    },
-];
-
-/*------------------Blogs-------------------------*/
-/*-------------------------------------------*/
-const BLOGS = [];
 
 /*--------------------Desktop-----------------------*/
 const DESKTOP = [
@@ -69,10 +60,10 @@ const DESKTOP = [
         meta: CERTIFICATES,
     },
     {
-        src: ICON_SRC.folder,
+        src: ICON_SRC.file,
         lable: "Projects",
-        fileType:FILE_TYPE.folder,
-        meta: PROJECTS
+        fileType:FILE_TYPE.md,
+        meta: MD_SRC.readme
     },
     {
         src: ICON_SRC.file,

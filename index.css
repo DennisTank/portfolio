@@ -131,7 +131,7 @@ body {
     flex-direction: row;
     align-items: center;
     flex-shrink: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .window-t1{
     cursor: move;
@@ -168,14 +168,14 @@ body {
     font-size: 15px;
     text-align: justify;
     overflow-y: auto;
-    background-color: rgba(40, 40, 40, 0.9);
+    background-color: rgb(40, 40, 40);
     color: white;
 }
 .window-folder{
     flex:1;
     padding: 10px;
     overflow-y: auto;
-    background-color: rgba(40, 40, 40, 0.9);
+    background-color: rgb(40, 40, 40);
     color: white;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
@@ -187,7 +187,7 @@ body {
     display: flex;
     overflow: auto;
     padding: 10px;
-    background-color: rgba(40, 40, 40, 0.9);
+    background-color: rgb(40, 40, 40);
     justify-content: center;
 }
 .window-image{
