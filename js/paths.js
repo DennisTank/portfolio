@@ -27,6 +27,8 @@ const MD_SRC = {
     //
     blockchain_voting_system: BASE_URL+"assets/projects/blockchain_voting_system/readme.md",
     //
+    vulnerability_assessment: BASE_URL+"assets/projects/vulnerability_assessment/readme.md",
+    //
 }
 const IMG_SRC = {
     me: BASE_URL+"assets/imgs/me.gif",
@@ -34,6 +36,12 @@ const IMG_SRC = {
     blockchain_voting_system_f1: BASE_URL+"assets/projects/blockchain_voting_system/fig1.png",
     blockchain_voting_system_f2: BASE_URL+"assets/projects/blockchain_voting_system/fig2.png",
     //
+    vulnerability_assessment_f1: BASE_URL+"assets/projects/vulnerability_assessment/fig1.png",
+    vulnerability_assessment_f2: BASE_URL+"assets/projects/vulnerability_assessment/fig2.png",
+    vulnerability_assessment_f3: BASE_URL+"assets/projects/vulnerability_assessment/fig3.png",
+    vulnerability_assessment_f4: BASE_URL+"assets/projects/vulnerability_assessment/fig4.png",
+    vulnerability_assessment_f5: BASE_URL+"assets/projects/vulnerability_assessment/fig5.png",
+    vulnerability_assessment_f6: BASE_URL+"assets/projects/vulnerability_assessment/fig6.png",
 }
 const PDF_SRC = {
     isc2_cc: BASE_URL+"assets/certificates/isc2_cc.pdf",

@@ -1,6 +1,7 @@
 
 //// FILE TYPES /////
 const FILE_TYPE = {
+    list:"LIST", // new icon?
     folder:"FOLDER", 
     md:"MD", 
     image:"IMG", 
@@ -25,24 +26,107 @@ const CERTIFICATES = [
     },
 ];
 
-// /*-------------------Images------------------------*/
-// const IMAGES = [
-//     {
-//         src: ICON_SRC.image,
-//         lable: "fig1",
-//         fileType:FILE_TYPE.image,
-//         meta: IMG_SRC.blockchain_voting_system_f1,
-//     },
-//     {
-//         src: ICON_SRC.image,
-//         lable: "fig2",
-//         fileType:FILE_TYPE.image,
-//         meta: IMG_SRC.blockchain_voting_system_f2,
-//     }
-// ];
+/*-------------------Images------------------------*/
+const PROJECTS = [
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
+    {
+        lable:"Vulnerability Assessment",
+        src:MD_SRC.vulnerability_assessment
+    },
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
+    {
+        lable:"Vulnerability Assessment",
+        src:MD_SRC.vulnerability_assessment
+    },
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
+    {
+        lable:"Vulnerability Assessment",
+        src:MD_SRC.vulnerability_assessment
+    },
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
+    {
+        lable:"Vulnerability Assessment",
+        src:MD_SRC.vulnerability_assessment
+    },
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
+    {
+        lable:"Vulnerability Assessment",
+        src:MD_SRC.vulnerability_assessment
+    },
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
+    {
+        lable:"Vulnerability Assessment",
+        src:MD_SRC.vulnerability_assessment
+    },
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
+    {
+        lable:"Vulnerability Assessment",
+        src:MD_SRC.vulnerability_assessment
+    },
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
+    {
+        lable:"Vulnerability Assessment",
+        src:MD_SRC.vulnerability_assessment
+    },
+]
 
-/*-------------------Blogs------------------------*/
-const BLOGS = [ // make it all md files and let the images go to all imgs folder
+/*-------------------Images------------------------*/
+const IMAGES = [
+    {
+        src: ICON_SRC.image,
+        lable: "ME",
+        fileType:FILE_TYPE.image,
+        meta: IMG_SRC.me,
+    },
+    //
+    {
+        src: ICON_SRC.image,
+        lable: "fig1",
+        fileType:FILE_TYPE.image,
+        meta: IMG_SRC.blockchain_voting_system_f1,
+    },
+    {
+        src: ICON_SRC.image,
+        lable: "fig2",
+        fileType:FILE_TYPE.image,
+        meta: IMG_SRC.blockchain_voting_system_f2,
+    }
+    //
+    
+];
+
+/*-------------------Documents------------------------*/
+const DOCUMENTS = [
+    {
+        src: ICON_SRC.file,
+        lable: "ReadMe!",
+        fileType:FILE_TYPE.md,
+        meta: MD_SRC.readme
+    },
     {
         src: ICON_SRC.file,
         lable: "Blockchain Voting System",
@@ -62,8 +146,8 @@ const DESKTOP = [
     {
         src: ICON_SRC.file,
         lable: "Projects",
-        fileType:FILE_TYPE.md,
-        meta: MD_SRC.readme
+        fileType:FILE_TYPE.list,
+        meta: PROJECTS
     },
     {
         src: ICON_SRC.file,
@@ -77,12 +161,18 @@ const DESKTOP = [
         fileType:FILE_TYPE.image,
         meta: IMG_SRC.me,
     },
-    {
-        src: ICON_SRC.folder,
-        lable: "BLOGS",
-        fileType:FILE_TYPE.folder,
-        meta: BLOGS
-    },
+    // { // in this potfolio
+    //     src: ICON_SRC.folder,
+    //     lable: "Documents",
+    //     fileType:FILE_TYPE.folder,
+    //     meta: DOCUMENTS
+    // },
+    // {
+    //     src: ICON_SRC.folder,
+    //     lable: "Images",
+    //     fileType:FILE_TYPE.folder,
+    //     meta: IMAGES
+    // },
     {
         src: ICON_SRC.linkedIn,
         lable: "LinkedIn",

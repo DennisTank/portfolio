@@ -77,6 +77,9 @@ class MyWindow{
         this.offsetX=0; 
         this.offsetY=0;
 
+        this.currListItem = "";
+        this.currListItemMd = "";
+
         this.init();
     }
 
@@ -209,6 +212,61 @@ class MyWindow{
                 boxPdf.className = "window-pdf-box";
                 boxPdf.innerHTML=`<iframe  class="window-pdf" src="${this.params.meta}"></iframe>`;
                 this.entity.appendChild(boxPdf);
+                windowsContainer.appendChild(this.entity);
+                buildBar(this.params.index, this.params.lable, this.minimize.bind(this));
+                break;
+                
+                case FILE_TYPE.list:
+                const boxList = document.createElement("div");
+                boxList.className = "window-list-box";
+
+                const list = document.createElement("ul");
+                list.className="window-list-ul"
+
+                list.addEventListener("click", (e)=>{
+                    [...list.children].forEach(li =>{
+                        if(li.innerHTML != this.currListItem){
+                            li.style.backgroundColor = "rgb(70, 70, 70)";
+                        }
+                    });
+
+                    if(this.currListItemMd == "") return;
+
+                    fetch(this.currListItemMd)
+                    .then(res => res.text())
+                    .then(md => {
+                        itemMd.innerHTML = marked.parse(md);
+                    });
+                });
+
+                this.params.meta.forEach( data => {
+                    const item = document.createElement("div");
+                    item.className = "window-list-li";
+                    item.innerHTML = `${data.lable}`
+
+                    const hr = document.createElement("hr");
+                    hr.className = "window-list-li-hr";
+
+                    item.addEventListener("click", (e)=>{
+                        this.currListItem = data.lable;
+                        item.style.backgroundColor = "rgb(40, 40, 40)";
+                        this.currListItemMd = data.src;
+                    });
+
+                    list.appendChild(item);
+                    list.appendChild(hr);
+                });
+
+                const itemMd = document.createElement("div");
+                itemMd.className = "window-list-md";
+                itemMd.innerHTML = "";
+
+
+                boxList.appendChild(list);
+                boxList.appendChild(itemMd);
+
+                this.entity.appendChild(boxList);
+                
                 windowsContainer.appendChild(this.entity);
                 buildBar(this.params.index, this.params.lable, this.minimize.bind(this));
                 break;
