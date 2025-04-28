@@ -8,6 +8,7 @@ const WALLPAPER_SRC = {
 
 const ICON_SRC = {
     folder: BASE_URL+"assets/icons/folder.png",
+    projects: BASE_URL+"assets/icons/projects.png",
     file: BASE_URL+"assets/icons/file.png",
     image: BASE_URL+"assets/icons/image.png",
     pdf: BASE_URL+"assets/icons/pdf.png",

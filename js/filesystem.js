@@ -36,62 +36,6 @@ const PROJECTS = [
         lable:"Vulnerability Assessment",
         src:MD_SRC.vulnerability_assessment
     },
-    {
-        lable:"Blockchain Voting System",
-        src:MD_SRC.blockchain_voting_system
-    },
-    {
-        lable:"Vulnerability Assessment",
-        src:MD_SRC.vulnerability_assessment
-    },
-    {
-        lable:"Blockchain Voting System",
-        src:MD_SRC.blockchain_voting_system
-    },
-    {
-        lable:"Vulnerability Assessment",
-        src:MD_SRC.vulnerability_assessment
-    },
-    {
-        lable:"Blockchain Voting System",
-        src:MD_SRC.blockchain_voting_system
-    },
-    {
-        lable:"Vulnerability Assessment",
-        src:MD_SRC.vulnerability_assessment
-    },
-    {
-        lable:"Blockchain Voting System",
-        src:MD_SRC.blockchain_voting_system
-    },
-    {
-        lable:"Vulnerability Assessment",
-        src:MD_SRC.vulnerability_assessment
-    },
-    {
-        lable:"Blockchain Voting System",
-        src:MD_SRC.blockchain_voting_system
-    },
-    {
-        lable:"Vulnerability Assessment",
-        src:MD_SRC.vulnerability_assessment
-    },
-    {
-        lable:"Blockchain Voting System",
-        src:MD_SRC.blockchain_voting_system
-    },
-    {
-        lable:"Vulnerability Assessment",
-        src:MD_SRC.vulnerability_assessment
-    },
-    {
-        lable:"Blockchain Voting System",
-        src:MD_SRC.blockchain_voting_system
-    },
-    {
-        lable:"Vulnerability Assessment",
-        src:MD_SRC.vulnerability_assessment
-    },
 ]
 
 /*-------------------Images------------------------*/
@@ -144,7 +88,7 @@ const DESKTOP = [
         meta: CERTIFICATES,
     },
     {
-        src: ICON_SRC.file,
+        src: ICON_SRC.projects,
         lable: "Projects",
         fileType:FILE_TYPE.list,
         meta: PROJECTS
