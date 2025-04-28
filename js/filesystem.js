@@ -29,16 +29,20 @@ const CERTIFICATES = [
 /*-------------------Images------------------------*/
 const PROJECTS = [
     {
-        lable:"Blockchain Voting System",
-        src:MD_SRC.blockchain_voting_system
-    },
-    {
         lable:"Vulnerability Assessment",
         src:MD_SRC.vulnerability_assessment
     },
+    {
+        lable:"Cloud Network Security: OpenStack",
+        src:MD_SRC.openstack
+    },
+    {
+        lable:"Blockchain Voting System",
+        src:MD_SRC.blockchain_voting_system
+    },
 ]
 
-/*-------------------Images------------------------*/
+/*-------------------Images------------------------*/ //update it
 const IMAGES = [
     {
         src: ICON_SRC.image,
@@ -63,7 +67,7 @@ const IMAGES = [
     
 ];
 
-/*-------------------Documents------------------------*/
+/*-------------------Documents------------------------*/ //update it
 const DOCUMENTS = [
     {
         src: ICON_SRC.file,

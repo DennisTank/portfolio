@@ -30,6 +30,8 @@ const MD_SRC = {
     //
     vulnerability_assessment: BASE_URL+"assets/projects/vulnerability_assessment/readme.md",
     //
+    openstack: BASE_URL+"assets/projects/openstack/readme.md",
+    //
 }
 const IMG_SRC = {
     me: BASE_URL+"assets/imgs/me.gif",
@@ -43,6 +45,17 @@ const IMG_SRC = {
     vulnerability_assessment_f4: BASE_URL+"assets/projects/vulnerability_assessment/fig4.png",
     vulnerability_assessment_f5: BASE_URL+"assets/projects/vulnerability_assessment/fig5.png",
     vulnerability_assessment_f6: BASE_URL+"assets/projects/vulnerability_assessment/fig6.png",
+    //
+    openstack_f1: BASE_URL+"assets/projects/openstack/fig1.png",
+    openstack_f2: BASE_URL+"assets/projects/openstack/fig2.png",
+    openstack_f3: BASE_URL+"assets/projects/openstack/fig3.png",
+    openstack_f4: BASE_URL+"assets/projects/openstack/fig4.png",
+    openstack_f5: BASE_URL+"assets/projects/openstack/fig5.png",
+    openstack_f6: BASE_URL+"assets/projects/openstack/fig6.png",
+    openstack_f7: BASE_URL+"assets/projects/openstack/fig7.png",
+    openstack_f8: BASE_URL+"assets/projects/openstack/fig8.png",
+    openstack_f9: BASE_URL+"assets/projects/openstack/fig9.png",
+    openstack_f10: BASE_URL+"assets/projects/openstack/fig10.png",
 }
 const PDF_SRC = {
     isc2_cc: BASE_URL+"assets/certificates/isc2_cc.pdf",
