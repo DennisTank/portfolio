@@ -236,6 +236,10 @@ class MyWindow{
                     .then(res => res.text())
                     .then(md => {
                         itemMd.innerHTML = marked.parse(md);
+                        itemMd.scrollTo({
+                            top: 0,
+                            behavior: 'smooth'
+                        });
                     });
                 });
 
