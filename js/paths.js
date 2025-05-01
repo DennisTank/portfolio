@@ -26,6 +26,8 @@ const ICON_SRC = {
 const MD_SRC = {
     readme: BASE_URL+"assets/mds/readme.md",
     //
+    projects: BASE_URL+"assets/projects/readme.md",
+    //
     blockchain_voting_system: BASE_URL+"assets/projects/blockchain_voting_system/readme.md",
     //
     vulnerability_assessment: BASE_URL+"assets/projects/vulnerability_assessment/readme.md",

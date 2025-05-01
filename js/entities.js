@@ -223,26 +223,6 @@ class MyWindow{
                 const list = document.createElement("ul");
                 list.className="window-list-ul"
 
-                list.addEventListener("click", (e)=>{
-                    [...list.children].forEach(li =>{
-                        if(li.innerHTML != this.currListItem){
-                            li.style.backgroundColor = "rgb(70, 70, 70)";
-                        }
-                    });
-
-                    if(this.currListItemMd == "") return;
-
-                    fetch(this.currListItemMd)
-                    .then(res => res.text())
-                    .then(md => {
-                        itemMd.innerHTML = marked.parse(md);
-                        itemMd.scrollTo({
-                            top: 0,
-                            behavior: 'smooth'
-                        });
-                    });
-                });
-
                 this.params.meta.forEach( data => {
                     const item = document.createElement("div");
                     item.className = "window-list-li";
@@ -264,6 +244,36 @@ class MyWindow{
                 const itemMd = document.createElement("div");
                 itemMd.className = "window-list-md";
                 itemMd.innerHTML = "";
+
+                fetch(MD_SRC.projects)
+                .then(res => res.text())
+                .then(md => {
+                    itemMd.innerHTML = marked.parse(md);
+                    itemMd.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+
+                list.addEventListener("click", (e)=>{
+                    [...list.children].forEach(li =>{
+                        if(li.innerHTML != this.currListItem){
+                            li.style.backgroundColor = "rgb(70, 70, 70)";
+                        }
+                    });
+
+                    if(this.currListItemMd == "") return;
+
+                    fetch(this.currListItemMd)
+                    .then(res => res.text())
+                    .then(md => {
+                        itemMd.innerHTML = marked.parse(md);
+                        itemMd.scrollTo({
+                            top: 0,
+                            behavior: 'smooth'
+                        });
+                    });
+                });
 
 
                 boxList.appendChild(list);

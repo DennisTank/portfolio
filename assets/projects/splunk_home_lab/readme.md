@@ -8,7 +8,7 @@
 - **Hypervisor**: VirtualBox.
 - **Attack Machine**: Kali Linux.
 - **Target Machine**: Windows 10.
-- **SEIM**: Splunk, ...
+- **SEIM**: Splunk, SYSMON windows service, SYSMON-add-on for Splunk.
 
 ## Procedure
 - Downloading and installing  the lab components; VirtualBox as hypervisor and in it two OS instances of Kali Linux and Windows 10.
