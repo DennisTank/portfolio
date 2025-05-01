@@ -1,6 +1,6 @@
 ## Endpoint Attack Detection and Analysis Using Splunk and Sysmon in a Virtual Lab
 
-**Year**: *2025
+**Year**: *2025*
 
 **Skills**: *Virtualization, Network Configuration, Splunk, Sysmon, SIEM, Incident Response, Windows Security, Linux Security, Penetration Testing, Nmap, Metasploit, Reverse Shell, Malware Analysis, Command-Line Interface (CLI), Network Forensics, Log Analysis, Threat Hunting, SPL (Search Processing Language), Cybersecurity Monitoring, Internal Network Setup, Vulnerability Exploitation, Defensive Security, Attack Simulation*
 
