@@ -1,2 +1,1 @@
-# &larr;
-### Click any project.
+# <span style="font-size: 46px;">&larr;</span> Click any project.
