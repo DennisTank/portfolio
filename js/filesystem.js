@@ -29,6 +29,10 @@ const CERTIFICATES = [
 /*-------------------Images------------------------*/
 const PROJECTS = [
     {
+        lable:"Splunk Home Lab",
+        src:MD_SRC.splunk_home_lab
+    },
+    {
         lable:"Vulnerability Assessment",
         src:MD_SRC.vulnerability_assessment
     },

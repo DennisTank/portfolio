@@ -32,6 +32,8 @@ const MD_SRC = {
     //
     openstack: BASE_URL+"assets/projects/openstack/readme.md",
     //
+    splunk_home_lab: BASE_URL+"assets/projects/splunk_home_lab/readme.md",
+    //
 }
 const IMG_SRC = {
     me: BASE_URL+"assets/imgs/me.gif",
@@ -56,6 +58,19 @@ const IMG_SRC = {
     openstack_f8: BASE_URL+"assets/projects/openstack/fig8.png",
     openstack_f9: BASE_URL+"assets/projects/openstack/fig9.png",
     openstack_f10: BASE_URL+"assets/projects/openstack/fig10.png",
+    //
+    splunk_home_lab_f1: BASE_URL+"assets/projects/splunk_home_lab/fig1.png",
+    splunk_home_lab_f2: BASE_URL+"assets/projects/splunk_home_lab/fig2.png",
+    splunk_home_lab_f3: BASE_URL+"assets/projects/splunk_home_lab/fig3.png",
+    splunk_home_lab_f4: BASE_URL+"assets/projects/splunk_home_lab/fig4.png",
+    splunk_home_lab_f5: BASE_URL+"assets/projects/splunk_home_lab/fig5.png",
+    splunk_home_lab_f6: BASE_URL+"assets/projects/splunk_home_lab/fig6.png",
+    splunk_home_lab_f7: BASE_URL+"assets/projects/splunk_home_lab/fig7.png",
+    splunk_home_lab_f8: BASE_URL+"assets/projects/splunk_home_lab/fig8.png",
+    splunk_home_lab_f9: BASE_URL+"assets/projects/splunk_home_lab/fig9.png",
+    splunk_home_lab_f10: BASE_URL+"assets/projects/splunk_home_lab/fig10.png",
+    splunk_home_lab_f11: BASE_URL+"assets/projects/splunk_home_lab/fig11.png",
+    splunk_home_lab_f12: BASE_URL+"assets/projects/splunk_home_lab/fig12.png",
 }
 const PDF_SRC = {
     isc2_cc: BASE_URL+"assets/certificates/isc2_cc.pdf",
