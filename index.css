@@ -14,6 +14,7 @@ body {
     overflow: hidden;
     z-index: 0;
     color: white;
+    background-size: contain;
 }
 /* TASK BAR */
 #taskbar{

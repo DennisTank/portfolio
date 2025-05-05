@@ -3,7 +3,8 @@
 const BASE_URL = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, "/");
 
 const WALLPAPER_SRC = {
-    mount_hammer: BASE_URL+"assets/imgs/wallpaper.png",
+    cyberstroke: BASE_URL+"assets/imgs/cyberstroke.png",
+    mount_hammer: BASE_URL+"assets/imgs/mount_hammer.png",
 }
 
 const ICON_SRC = {
