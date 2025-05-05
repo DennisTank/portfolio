@@ -7,14 +7,14 @@ body {
 #desktop {
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: whitw;
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
     z-index: 0;
     color: white;
-    background-size: contain;
+    background-size: cover;
 }
 /* TASK BAR */
 #taskbar{
@@ -120,13 +120,14 @@ body {
 }
 .window{
   background: rgba(0,0,0,0.5);
-  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+  border: 1px solid rgba(0, 0, 0, 0.3);
   position: absolute;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   pointer-events: auto;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 3px;
+  overflow: hidden;
 }
 .window-t-bar{
     width: 100%;
