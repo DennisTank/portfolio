@@ -26,6 +26,28 @@ const CERTIFICATES = [
     },
 ];
 
+/*------------------games-------------------------*/
+const GAMES = [
+    {
+        src: ICON_SRC.oddly,
+        lable: "Oddly Adventure",
+        fileType:FILE_TYPE.link,
+        meta:"https://cyberstroke.itch.io/oddly-adventure/"
+    },
+    {
+        src: ICON_SRC.elements,
+        lable: "Element Simulation",
+        fileType:FILE_TYPE.link,
+        meta:"https://dennistank.github.io/Element-Simulation/"
+    },
+    {
+        src: ICON_SRC.snack,
+        lable: "Snake: Classic",
+        fileType:FILE_TYPE.link,
+        meta:"https://dennistank.github.io/Classic-Snake/"
+    },
+];
+
 /*-------------------Images------------------------*/
 const PROJECTS = [
     {
@@ -91,6 +113,12 @@ const DOCUMENTS = [
 const DESKTOP = [
     {
         src: ICON_SRC.folder,
+        lable: "Games",
+        fileType:FILE_TYPE.folder,
+        meta: GAMES,
+    },
+    {
+        src: ICON_SRC.folder,
         lable: "Certificates",
         fileType:FILE_TYPE.folder,
         meta: CERTIFICATES,
@@ -142,24 +170,6 @@ const DESKTOP = [
         lable: "Leetcode",
         fileType:FILE_TYPE.link,
         meta:"https://leetcode.com/u/dennistank/"
-    },
-    {
-        src: ICON_SRC.oddly,
-        lable: "Oddly Adventure",
-        fileType:FILE_TYPE.link,
-        meta:"https://cyberstroke.itch.io/oddly-adventure/"
-    },
-    {
-        src: ICON_SRC.elements,
-        lable: "Element Simulation",
-        fileType:FILE_TYPE.link,
-        meta:"https://dennistank.github.io/Element-Simulation/"
-    },
-    {
-        src: ICON_SRC.snack,
-        lable: "Snake: Classic",
-        fileType:FILE_TYPE.link,
-        meta:"https://dennistank.github.io/Classic-Snake/"
     },
 ]
 

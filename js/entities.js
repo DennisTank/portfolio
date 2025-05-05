@@ -258,7 +258,7 @@ class MyWindow{
                 list.addEventListener("click", (e)=>{
                     [...list.children].forEach(li =>{
                         if(li.innerHTML != this.currListItem){
-                            li.style.backgroundColor = "rgb(70, 70, 70)";
+                            li.style.backgroundColor = "#0077D2";
                         }
                     });
 
