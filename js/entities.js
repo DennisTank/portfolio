@@ -28,7 +28,7 @@ class Icon{
     }
 
     // events
-    mouseover(e){this.entity.style.backgroundColor = "rgba(1,1,1,0.25)";}
+    mouseover(e){this.entity.style.backgroundColor = "rgba(0, 119, 210, 0.5)";}
     mouseout(e){
         if(this.isFocus) this.entity.style.backgroundColor = "rgba(0, 119, 210, 0.5)";
         else this.entity.style.backgroundColor = "rgba(0,0,0,0)";
