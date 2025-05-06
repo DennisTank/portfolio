@@ -30,13 +30,13 @@ class Icon{
     // events
     mouseover(e){this.entity.style.backgroundColor = "rgba(1,1,1,0.25)";}
     mouseout(e){
-        if(this.isFocus) this.entity.style.backgroundColor = "rgba(1,1,1,0.5)";
+        if(this.isFocus) this.entity.style.backgroundColor = "rgba(0, 119, 210, 0.5)";
         else this.entity.style.backgroundColor = "rgba(0,0,0,0)";
     }
     click(e){
         if (this.entity.contains(e.target)){
             this.isFocus = true;
-            this.entity.style.backgroundColor = "rgba(1,1,1,0.5)";
+            this.entity.style.backgroundColor = "rgba(0, 119, 210, 0.5)";
         }
         else{
             this.isFocus = false;
