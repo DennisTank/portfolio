@@ -166,6 +166,12 @@ const DESKTOP = [
         meta:"https://github.com/DennisTank/"
     },
     {
+        src: ICON_SRC.try_hack_me,
+        lable: "TryHackMe",
+        fileType:FILE_TYPE.md,
+        meta:MD_SRC.try_hack_me
+    },
+    {
         src: ICON_SRC.leetcode,
         lable: "Leetcode",
         fileType:FILE_TYPE.link,

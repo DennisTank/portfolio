@@ -16,6 +16,7 @@ const ICON_SRC = {
     linkedIn: BASE_URL+"assets/icons/linkedIn.png",
     github: BASE_URL+"assets/icons/github.png",
     leetcode: BASE_URL+"assets/icons/leetcode.png",
+    try_hack_me: BASE_URL+"assets/icons/try_hack_me.png",
     minimize: BASE_URL+"assets/icons/minimize.png",
     maximize: BASE_URL+"assets/icons/maximize.png",
     maximize_back: BASE_URL+"assets/icons/maximize_back.png",
@@ -28,6 +29,8 @@ const MD_SRC = {
     readme: BASE_URL+"assets/mds/readme.md",
     //
     projects: BASE_URL+"assets/projects/readme.md",
+    //
+    try_hack_me: BASE_URL+"assets/projects/try_hack_me/readme.md",
     //
     blockchain_voting_system: BASE_URL+"assets/projects/blockchain_voting_system/readme.md",
     //
