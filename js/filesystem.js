@@ -24,6 +24,12 @@ const CERTIFICATES = [
         fileType:FILE_TYPE.pdf,
         meta: PDF_SRC.isc2_cc,
     },
+    {
+        src: ICON_SRC.pdf,
+        lable: "AWS Cloud Practitioner",
+        fileType:FILE_TYPE.pdf,
+        meta: PDF_SRC.aws_cp,
+    },
 ];
 
 /*------------------games-------------------------*/

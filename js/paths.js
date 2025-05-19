@@ -81,4 +81,5 @@ const IMG_SRC = {
 const PDF_SRC = {
     isc2_cc: BASE_URL+"assets/certificates/isc2_cc.pdf",
     security_plus: BASE_URL+"assets/certificates/security_plus.pdf",
+    aws_cp: BASE_URL+"assets/certificates/aws_cp.pdf",
 }
