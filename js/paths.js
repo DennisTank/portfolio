@@ -40,6 +40,8 @@ const MD_SRC = {
     //
     splunk_home_lab: BASE_URL+"assets/projects/splunk_home_lab/readme.md",
     //
+    soc_auto: BASE_URL+"assets/projects/soc_auto/readme.md",
+    //
 }
 const IMG_SRC = {
     me: BASE_URL+"assets/imgs/me.gif",
@@ -77,6 +79,16 @@ const IMG_SRC = {
     splunk_home_lab_f10: BASE_URL+"assets/projects/splunk_home_lab/fig10.png",
     splunk_home_lab_f11: BASE_URL+"assets/projects/splunk_home_lab/fig11.png",
     splunk_home_lab_f12: BASE_URL+"assets/projects/splunk_home_lab/fig12.png",
+    //
+    soc_auto_1: BASE_URL+"assets/projects/soc_auto/fig1.png",
+    soc_auto_2: BASE_URL+"assets/projects/soc_auto/fig2.png",
+    soc_auto_3: BASE_URL+"assets/projects/soc_auto/fig3.png",
+    soc_auto_4: BASE_URL+"assets/projects/soc_auto/fig4.png",
+    soc_auto_5: BASE_URL+"assets/projects/soc_auto/fig5.png",
+    soc_auto_6: BASE_URL+"assets/projects/soc_auto/fig6.png",
+    soc_auto_7: BASE_URL+"assets/projects/soc_auto/fig7.png",
+    soc_auto_8: BASE_URL+"assets/projects/soc_auto/fig8.png",
+    soc_auto_9: BASE_URL+"assets/projects/soc_auto/fig9.png",
 }
 const PDF_SRC = {
     isc2_cc: BASE_URL+"assets/certificates/isc2_cc.pdf",

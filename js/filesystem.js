@@ -57,6 +57,10 @@ const GAMES = [
 /*-------------------Images------------------------*/
 const PROJECTS = [
     {
+        lable:"SOC Automation",
+        src:MD_SRC.soc_auto
+    },
+    {
         lable:"Splunk Home Lab",
         src:MD_SRC.splunk_home_lab
     },
