@@ -30,6 +30,12 @@ const CERTIFICATES = [
         fileType:FILE_TYPE.pdf,
         meta: PDF_SRC.aws_cp,
     },
+    {
+        src: ICON_SRC.pdf,
+        lable: "Jr Pentester",
+        fileType:FILE_TYPE.pdf,
+        meta: PDF_SRC.jr_pentest,
+    },
 ];
 
 /*------------------games-------------------------*/
